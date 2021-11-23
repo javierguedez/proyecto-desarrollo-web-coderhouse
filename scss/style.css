@@ -59,6 +59,10 @@ header {
   justify-content: center;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 .section, h3 {
   font-family: var(--my-font);
   background-color: white;
@@ -70,6 +74,7 @@ header {
 
 .section {
   margin: auto;
+  background-color: #e67e7e8f;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -81,9 +86,6 @@ header {
 }
 .section h3 {
   border: solid var(--box-color-2);
-  border-radius: 10px;
-  padding: 10px;
-  display: block;
 }
 .section .list {
   width: 500px;
@@ -124,14 +126,14 @@ header {
   text-align: center;
   margin: auto;
   padding: 50px 100px;
-  background-color: var(--box-color);
+  background-color: #e67e7e8f;
   border-radius: 10px;
 }
 
 .grid-item:first-child {
   grid-column-start: 1;
   grid-column-end: 4;
-  background-color: var(--box-color);
+  background-color: #e67e7e;
   font-size: 40px;
   padding: 50px 40%;
 }
@@ -166,7 +168,7 @@ h4 {
   text-align: center;
   font-size: 32px;
   color: var(--blanco);
-  background-color: var(--box-color);
+  background-color: #e67e7e8f;
   text-decoration: none;
   padding: 60px 15px;
   font-family: var(--my-font);

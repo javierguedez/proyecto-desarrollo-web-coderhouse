@@ -1,5 +1,6 @@
 
 .section {    margin: auto;
+    background-color: #e67e7e8f;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -11,10 +12,7 @@
            
     h3 {
         border: solid var(--box-color-2);
-        border-radius: 10px;
-        padding: 10px;
-        display: block;
-     } 
+       }
         .list {
             width: 500px;
             display: flex;

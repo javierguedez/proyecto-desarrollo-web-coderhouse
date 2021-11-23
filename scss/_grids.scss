@@ -26,14 +26,14 @@ font-family: var(--my-font);
     text-align: center;
     margin: auto;
     padding: 50px 100px;
-    background-color: var(--box-color);
+    background-color:  #e67e7e8f;
     border-radius: 10px;
 }
 
 .grid-item:first-child{
     grid-column-start: 1;
     grid-column-end: 4;
-    background-color: var(--box-color);
+    background-color:#e67e7e;
     font-size: 40px;
     padding: 50px 40%;
     
