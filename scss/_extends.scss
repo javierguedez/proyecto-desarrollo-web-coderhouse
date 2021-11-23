@@ -1,0 +1,23 @@
+%mensaje{
+    font-family: var(--my-font);
+    background-color:white;
+}
+
+%text{
+    color: white
+}
+
+h3 {
+    @extend %mensaje; }
+
+    .section {
+        @extend %mensaje;
+    }
+
+    .form-label {
+        @extend %text;
+    }
+    
+    .form-check-label {
+       @extend %text;
+    }

@@ -1,0 +1,25 @@
+@mixin prefijos($propiedad) {
+    -webkit-transform: $propiedad;
+    -moz-transform: $propiedad;
+    -o-transform: $propiedad;
+    transform: $propiedad;
+}
+
+.grid-item2:hover {
+    @include prefijos(scale(1.5))
+    }
+    .grid-item3:hover {
+    @include prefijos(scale(1.5))
+    }
+    .grid-item4:hover {
+    @include prefijos(scale(1.5))
+    }
+    .grid-item5:hover {
+        @include prefijos(scale(1.5))
+    }
+     .grid-item6:hover {
+    @include prefijos(scale(1.5))
+    }
+    .grid-item7:hover {
+     @include prefijos(scale(1.5))
+    }

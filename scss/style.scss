@@ -1,0 +1,22 @@
+*{
+    margin: 2px;
+    }
+  
+// variables
+@import "./variables";
+
+// hearder
+@import "./header";
+
+@import "./extends";
+// footer
+@import "./footer";
+
+@import "./grids";
+
+@import "./main";
+
+@import "./mixins";
+
+
+    
