@@ -7,10 +7,13 @@
 }
 
 .grid-col {
+    :hover {
+        opacity: 1;
+    }
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-}
+    }
 
 .grid-it {   border: solid 4px var(--box-color);
     text-align: center;
