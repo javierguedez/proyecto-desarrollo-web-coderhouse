@@ -21,3 +21,6 @@ h3 {
     .form-check-label {
        @extend %text;
     }
+    h5 {
+        @extend%mensaje;
+    }

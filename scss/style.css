@@ -61,6 +61,7 @@ header {
 
 h1 {
   font-size: 40px;
+  display: flex;
 }
 
 .navbar {
@@ -71,7 +72,12 @@ h1 {
   background-color: #e67e7e8f;
 }
 
-.section, h3 {
+.logos {
+  display: flex;
+  align-items: flex-start;
+}
+
+h5, .section, h3 {
   font-family: var(--my-font);
   background-color: white;
 }
@@ -108,6 +114,7 @@ h1 {
 
 .grid-container {
   display: grid;
+  grid-template-columns: repeat;
   grid-template-rows: 150px 150px 150px;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
@@ -152,6 +159,47 @@ h1 {
 ul, ol {
   list-style: none;
   z-index: 0;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.contenedor .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.25s;
+  overflow: hidden;
+  margin: 20px;
+}
+.contenedor .card :hover {
+  transform: traslatey(-10px);
+  box-shadow: 0 12px 16 rgba(0, 0, 0, 0.2);
+}
+.contenedor .card .img {
+  width: 330px;
+  height: 220px;
+}
+.contenedor .card .a {
+  font-style: none;
+  color: var(--blanco);
+  background-color: var(--box-color);
+}
+.contenedor .card .h5 {
+  font-weight: 600;
+}
+
+.compra {
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--box-color);
 }
 
 .par {

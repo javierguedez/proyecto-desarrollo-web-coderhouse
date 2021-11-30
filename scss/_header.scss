@@ -6,6 +6,8 @@ header {
 
 h1{
     font-size: 40px;
+    display: flex;
+    
 }    
 
 .navbar {
@@ -15,3 +17,8 @@ h1{
     .dropdown-menu {
         background-color: #e67e7e8f;
     }
+    .logos {
+        display: flex;
+        align-items: flex-start;
+    }
+
