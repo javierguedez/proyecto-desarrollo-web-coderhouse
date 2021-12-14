@@ -1,6 +1,6 @@
 %mensaje{
     font-family: var(--my-font);
-    background-color:white;
+    background-color:#e67e7e8f;
 }
 
 %text{
@@ -10,11 +10,7 @@
 h3 {
     @extend %mensaje; }
 
-    .section {
-        @extend %mensaje;
-    }
-
-    .form-label {
+      .form-label {
         @extend %text;
     }
     
