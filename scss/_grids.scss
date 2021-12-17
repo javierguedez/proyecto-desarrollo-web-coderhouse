@@ -92,4 +92,12 @@ ul, ol {
         color: var(--box-color)
     }
 
+    @media screen and(max-width:480px) {
+        .grid-col{
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+
    

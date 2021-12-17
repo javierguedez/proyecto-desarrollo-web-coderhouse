@@ -52,7 +52,6 @@ font-style: var(--my-font);
 right: 200px;
 margin-bottom: 10px;
 position: absolute;
-width: 50%;
 }
 
 button:hover {
@@ -110,3 +109,11 @@ justify-content: center;
     color: black;
 }
 
+.card{
+    
+    a{
+        text-decoration: none;
+        color: rgb(114, 3, 40);
+        font-family: var(--my-font);
+    }
+}

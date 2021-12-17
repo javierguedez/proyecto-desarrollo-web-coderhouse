@@ -4,7 +4,6 @@ footer {
     border: solid var(--box-color);
     border-radius: 2px;
     margin: 50px auto;
-    position: relative ;
     z-index: -1;
 
 .section {  
@@ -12,9 +11,8 @@ footer {
     width: 90%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
-    display: auto;
+    
 
     .list {
         width: 500px;
@@ -35,4 +33,23 @@ footer {
              border-radius: 10px ;
              background-color: var(--box-color-2);
          } }  
- 
+ .pie {
+    position: relative ;
+    top: 450px;
+
+ }
+    @media screen and(max-width:480px) {
+        .section{
+            flex-direction: column;
+        }
+        
+    }
+    @media screen and(max-width:480px) {
+        .pie {
+            position: relative;
+            top: 2400px;
+        }
+        
+    }
+    
+   
